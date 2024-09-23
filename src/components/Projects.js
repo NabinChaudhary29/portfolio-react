@@ -1,102 +1,67 @@
 import React from 'react'
-import { Project1, Project2, Project3, Project4, Project5, Project6,AboutMeImage } from "./image.js";
+import { Project1, Project2, Project3, Project4, Project5, Project6 } from "./image.js";
 import { Title } from './Title.js';
+import { Card } from './Card.js';
 
 export const Projects = () => {
+    const projects =[
+        {
+        image:Project6,
+        github:"",
+        url:"",
+        title:"Personal Portfolio",
+        description:"Techstack: Html,CSS,React",
+        date:"11 August 2024"  
+        },
+        {
+        image:Project1,
+        github:"",
+        url:"",
+        title:"Search Engine",
+        description:"Techstack: Html,CSS",
+        date:"11 August 2024" 
+        },
+        {
+        image:Project2,
+        github:"",
+        url:"",
+        title:"Blog",
+        description:"Techstack: Html,CSS",
+        date:"11 August 2024" 
+        },
+        {
+        image:Project3,
+        github:"",
+        url:"",
+        title:"Parallex",
+        description:"Techstack: Html,CSS",
+        date:"11 August 2024" 
+        },
+        {
+        image:Project4,
+        github:"",
+        url:"",
+        title:"Simple Quiz Form",
+        description:"Techstack: Html,CSS",
+        date:"11 August 2024" 
+        },
+        {
+        image:Project5,
+        github:"",
+        url:"",
+        title:"Sign Up Form",
+        description:"Techstack: Html,CSS",
+        date:"11 August 2024" 
+        }
+    ]
   return (
     <div>
         <section className="projects container" id="projects">
             <Title titl="My Projects"/>
             <div className="grid project-container">
-                <div className="project-card">
-                    <div className="top">
-                         <img src={Project6} alt="no-image" width="100%"/>
-                    </div>
-                    <div className="bottom container">
-                        <div className="links">
-                            <a href=""><i className="fa-brands fa-github"></i></a>
-                            <a href=""><i className="fa-brands fa-chrome"></i></a>
-                        </div>
-                        <h3>Personal Portfolio</h3>
-                        <p>Techstack: HTML, CSS</p>
-                        <p>11 August 2024</p>
-                    </div>
-                </div>
-
-                <div className="project-card">
-                    <div className="top">
-                         <img src={Project1} alt="no-image" width="100%"/>
-                    </div>
-                    <div className="bottom container">
-                        <div className="links">
-                            <a href=""><i className="fa-brands fa-github"></i></a>
-                            <a href=""><i className="fa-brands fa-chrome"></i></a>
-                        </div>
-                        <h3>Search Engine</h3>
-                        <p>Techstack: HTML, CSS</p>
-                        <p>11 August 2024</p>
-                    </div>
-                </div>
-
-                <div className="project-card">
-                    <div className="top">
-                         <img src={Project2} alt="no-image" width="100%"/>
-                    </div>
-                    <div className="bottom container">
-                        <div className="links">
-                            <a href=""><i className="fa-brands fa-github"></i></a>
-                            <a href=""><i className="fa-brands fa-chrome"></i></a>
-                        </div>
-                        <h3>Blog</h3>
-                        <p>Techstack: HTML, CSS</p>
-                        <p>11 August 2024</p>
-                    </div>
-                </div>
-
-                <div className="project-card">
-                    <div className="top">
-                         <img src={Project3} alt="no-image" width="100%"/>
-                    </div>
-                    <div className="bottom container">
-                        <div className="links">
-                            <a href=""><i className="fa-brands fa-github"></i></a>
-                            <a href=""><i className="fa-brands fa-chrome"></i></a>
-                        </div>
-                        <h3>Parallex</h3>
-                        <p>Techstack: HTML, CSS</p>
-                        <p>11 August 2024</p>
-                    </div>
-                </div>
-
-                <div className="project-card">
-                    <div className="top">
-                         <img src={Project4} alt="no-image" width="100%"/>
-                    </div>
-                    <div className="bottom container">
-                        <div className="links">
-                            <a href=""><i className="fa-brands fa-github"></i></a>
-                            <a href=""><i className="fa-brands fa-chrome"></i></a>
-                        </div>
-                        <h3>Simple Quiz Form</h3>
-                        <p>Techstack: HTML, CSS</p>
-                        <p>11 August 2024</p>
-                    </div>
-                </div>
-
-                <div className="project-card">
-                    <div className="top">
-                         <img src={Project5} alt="no-image" width="100%"/>
-                    </div>
-                    <div className="bottom container">
-                        <div className="links">
-                            <a href=""><i className="fa-brands fa-github"></i></a>
-                            <a href=""><i className="fa-brands fa-chrome"></i></a>
-                        </div>
-                        <h3>Sign Up Form</h3>
-                        <p>Techstack: HTML, CSS</p>
-                        <p>11 August 2024</p>
-                    </div>
-                </div>
+                {
+                    projects.map((item,i)=> <Card key={i} {...item}/>)
+                }
             </div>
         </section>
     </div>
