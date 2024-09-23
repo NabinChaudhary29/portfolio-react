@@ -1,13 +1,12 @@
 import React from 'react'
 import { Project1, Project2, Project3, Project4, Project5, Project6,AboutMeImage } from "./image.js";
+import { Title } from './Title.js';
 
 export const Projects = () => {
   return (
     <div>
         <section className="projects container" id="projects">
-            <h2 className="title">
-                <span>My Projects</span>
-            </h2>
+            <Title titl="My Projects"/>
             <div className="grid project-container">
                 <div className="project-card">
                     <div className="top">

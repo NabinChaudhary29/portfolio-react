@@ -1,13 +1,12 @@
 import React from 'react'
 import { AboutMeImage } from "./image.js";
+import { Title } from './Title.js';
 
 export const AboutMe = () => {
   return (
     <div>
         <section className="about" id="about">
-            <h2 className="title">
-                <span>About Me</span>
-            </h2>
+            <Title title="About Me"/>
             <div className="container flex about-content">
                 <div className="flex-center myImg">
                     <img src={AboutMeImage} alt="" width="100%"/>
