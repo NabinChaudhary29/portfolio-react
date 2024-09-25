@@ -4,7 +4,7 @@ import { Title } from './Title.js';
 
 export const AboutMe = () => {
   return (
-    <div>
+    <>
         <section className="about" id="about">
             <Title title="About Me"/>
             <div className="container flex about-content">
@@ -28,6 +28,6 @@ export const AboutMe = () => {
             </div>
 
         </section>
-    </div>
+    </>
   )
 }

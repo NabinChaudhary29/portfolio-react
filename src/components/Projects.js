@@ -55,7 +55,7 @@ export const Projects = () => {
         }
     ]
   return (
-    <div>
+    <>
         <section className="projects container" id="projects">
             <Title title="My Projects"/>
             <div className="grid project-container">
@@ -64,6 +64,6 @@ export const Projects = () => {
                 }
             </div>
         </section>
-    </div>
+    </>
   )
 }

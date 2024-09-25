@@ -3,7 +3,7 @@ import { HeroImage } from './image'
 
 export const HeroAndBanner = () => {
   return (
-    <div>
+    <>
         <section className="hero-section container" id="hero">
             <div className="grid hero">
                 <div className="left flex">
@@ -56,6 +56,6 @@ export const HeroAndBanner = () => {
                 </div>
             </div>
         </section>
-    </div>
+    </>
   )
 }

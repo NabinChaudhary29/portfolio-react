@@ -2,7 +2,7 @@ import React from 'react'
 
 export const NavBar = () => {
   return (
-    <div>
+    <>
         <header>
             <div className="header container flex">
                 <div className="logo flex">
@@ -25,6 +25,6 @@ export const NavBar = () => {
                 </div>
             </div>
         </header>
-    </div>
+    </>
   )
 }

@@ -12,13 +12,7 @@ import { LayOut } from './components/LayOut.js';
 function App() {
   return (
     <div>
-      {/* <!-- dark mode tooggler --> */}
       
-
-   
-        {/* <!-- navbar --> */}
-      
-
         <Routes>
           <Route path='/' element={<LayOut/>}>
           <Route path="/" element={<HeroAndBanner/>}/>
@@ -26,35 +20,10 @@ function App() {
           <Route path="Projects" element={<Projects/>}/>
           <Route path="About" element={<AboutMe/>}/>
           <Route path="Contact" element={<Contact/>}/>
-
           </Route>
-          
         </Routes>
-
-        
-
-        {/* <!-- hero section --> */}
-        {/* <!-- banner section --> */}
-        {/* <HeroAndBanner/> */}
-
-        {/* <!-- skills section --> */}
-        {/* <Skills/> */}
-
-        {/* <!-- projects section --> */}
-        {/* <Projects/> */}
-
-        {/* <!-- about section --> */}
-        {/* <AboutMe/> */}
-        
-        {/* <!-- contact section --> */}
-        {/* <Contact/> */}
-
-        {/* <!-- footer section --> */}
-        
-        
-        
-        
     </div>
+    
   );
 }
 

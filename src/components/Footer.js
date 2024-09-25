@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Footer = () => {
   return (
-    <div>
+    <>
         <footer className="flex-center">
             <div className="top flex">
                 <div className="links">
@@ -31,6 +31,6 @@ export const Footer = () => {
                 Made by me
             </div>
         </footer>
-    </div>
+    </>
   )
 }

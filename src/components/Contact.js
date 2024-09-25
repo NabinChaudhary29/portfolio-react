@@ -3,7 +3,7 @@ import { Title } from './Title'
 
 export const Contact = () => {
   return (
-    <div>
+    <>
         <section className="contact container" id="contact">
             <Title title="Conatct"/>
 
@@ -25,6 +25,6 @@ export const Contact = () => {
                 </a>
             </div>
         </section>
-    </div>
+    </>
   )
 }

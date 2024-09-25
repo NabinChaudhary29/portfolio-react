@@ -3,7 +3,7 @@ import { Title } from './Title'
 
 export const Skills = () => {
   return (
-    <div>
+    <>
         <div className="skills" id="skills">
             <Title title="Skills"/>
             <div className="container flex skills-container">
@@ -33,6 +33,6 @@ export const Skills = () => {
                 </div>
             </div>
         </div>
-    </div>
+    </>
   )
 }

@@ -4,7 +4,7 @@ import { NavBar } from './NavBar'
 import { Outlet } from 'react-router-dom'
 export const LayOut = () => {
   return (
-    <div>
+    <>
 
     <input type="checkbox" id="toggle"/>
     <div className="wrapper">
@@ -20,6 +20,6 @@ export const LayOut = () => {
         </a>
     </div>
         
-    </div>
+    </>
   )
 }

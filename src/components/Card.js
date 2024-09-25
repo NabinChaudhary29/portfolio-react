@@ -2,6 +2,7 @@ import React from 'react'
 
 export const Card = ({image,github,url,title,description,date}) => {
   return (
+    <>
     <div className="project-card">
                     <div className="top">
                          <img src={image} alt="" width="100%"/>
@@ -16,5 +17,7 @@ export const Card = ({image,github,url,title,description,date}) => {
                         <p>{date}</p>
                     </div>
                 </div>
+    </>
+    
   )
 }
