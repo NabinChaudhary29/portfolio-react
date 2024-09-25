@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/protfolio-react/static/css/main.c31d6d4f.css",
+    "main.js": "/protfolio-react/static/js/main.d95dc383.js",
+    "static/js/453.906b0208.chunk.js": "/protfolio-react/static/js/453.906b0208.chunk.js",
+    "static/media/p-2.png": "/protfolio-react/static/media/p-2.616ef449634a39d79e8c.png",
+    "static/media/p-1.png": "/protfolio-react/static/media/p-1.c75adba727e129dc3a03.png",
+    "static/media/p-3.png": "/protfolio-react/static/media/p-3.114c9755604413bd1d7f.png",
+    "static/media/bg.jpg": "/protfolio-react/static/media/bg.ab8df158848345e7c846.jpg",
+    "static/media/p.png": "/protfolio-react/static/media/p.709a37b2996c38c09c5e.png",
+    "static/media/p-4.png": "/protfolio-react/static/media/p-4.084989533185c519e684.png",
+    "static/media/p-5.png": "/protfolio-react/static/media/p-5.f7dc339e960b4efd3375.png",
+    "static/media/img2.png": "/protfolio-react/static/media/img2.ccecb3ba5c66cbe68fdf.png",
+    "static/media/img1.png": "/protfolio-react/static/media/img1.e4ee972dace3ee651995.png",
+    "index.html": "/protfolio-react/index.html",
+    "main.c31d6d4f.css.map": "/protfolio-react/static/css/main.c31d6d4f.css.map",
+    "main.d95dc383.js.map": "/protfolio-react/static/js/main.d95dc383.js.map",
+    "453.906b0208.chunk.js.map": "/protfolio-react/static/js/453.906b0208.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c31d6d4f.css",
+    "static/js/main.d95dc383.js"
+  ]
+}
